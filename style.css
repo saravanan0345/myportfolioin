@@ -1,0 +1,151 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    font-family: 'Segoe UI', sans-serif;
+    color: #fff;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    min-height: 100%;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+  }
+
+
+  /* Header */
+  header {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    margin-top: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #00ffff;
+  }
+  
+  /* Sections */
+  section {
+    padding: 60px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Projects Grid */
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+  }
+  
+  .project-card {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive Typography */
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 1.8rem;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+
+  .hi{
+    font-size: 42px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+.name{
+    color: white;
+    font-size: 60px;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+
+.course{
+    margin-top: 20px;
+    display: inline-flex;
+    padding: 3px;
+    color: #00ffff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    margin-left: 30px;
+    
+}
+.para{
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    display: flex ;
+    margin-left:10px;
+}
+span{
+    font-size: 35px;
+}
+
+a{
+
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
